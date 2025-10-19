@@ -38,6 +38,7 @@ RAB_Buffs = {
 	innerfire = { name = "Inner Fire", identifiers = { { tooltip = "Inner Fire", texture = "Spell_Holy_InnerFire" } }, type = "self", grouping = "Priest", class = "Priest", recast = 3 },
 	pi = { name = "Power Infusion", identifiers = { { tooltip = "Power Infusion", texture = "Spell_Holy_PowerInfusion" } }, grouping = "Priest", ignoreClass = "wrh", priority = { priest = 0.2, druid = 0.2, mage = 0.5, warlock = 0.5 }, selfPriority = 0 },
 	priestres = { name = "Resurrection", identifiers = { { tooltip = "Resurrection", texture = "Spell_Holy_Resurrection" } }, grouping = "Priest", ctraid = 22, recast = 3 },
+	ec = { name = "Empower Champion", identifiers = { { tooltip = "Empower Champion", texture = "Spell_holy_empowerchampion" } }, grouping = "Priest" },
 
 	motw = { name = "Mark of the Wild", identifiers = { { tooltip = "Mark of the Wild", texture = "Spell_Nature_Regeneration" }, { tooltip = "Gift of the Wild", texture = "Spell_Nature_Regeneration", bigcast = "gotw" } }, bigcast = "gotw", bigsort = "group", bigthreshold = 3, grouping = "Druid", ctraid = 2, recast = 5 },
 	emeraldblessing = { name = "Emerald Blessing", identifiers = { { tooltip = "Emerald Blessing", texture = "Spell_Nature_ProtectionformNature", spellId = 57108 } }, grouping = "Druid", recast = 3 },
